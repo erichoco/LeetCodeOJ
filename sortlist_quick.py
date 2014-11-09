@@ -1,6 +1,6 @@
 #/usr/local/env python
 
-# Question link: https://oj.leetcode.com/problems/sort-list/
+# Problem link: https://oj.leetcode.com/problems/sort-list/
 # Note: This will receive TLE as it's worst case is O(n^2)
 
 # Definition for singly-linked list.

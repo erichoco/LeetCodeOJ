@@ -1,6 +1,6 @@
 #/usr/local/env python
 
-# Question link: https://oj.leetcode.com/problems/sort-list/
+# Problem link: https://oj.leetcode.com/problems/sort-list/
 
 # Definition for singly-linked list.
 class ListNode:
