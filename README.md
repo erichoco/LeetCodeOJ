@@ -1,4 +1,4 @@
 LeetCodeOJ
 ==========
 
-LeetCode OJ problem practice
+LeetCode OJ algorithm problems practice
