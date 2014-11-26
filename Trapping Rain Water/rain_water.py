@@ -21,7 +21,6 @@ class Solution:
     # @return an integer
     def trap(self, A):
         lenA = len(A)
-
         if 3 > lenA:
             return 0
 
@@ -30,18 +29,14 @@ class Solution:
         for i, v in enumerate(A):
             if i == lenA-1:
                 break
-
             stack.push(v)
             if v > curMax:
                 curMax = v
-
             nextV = A[i+1]
             if nextV > curMax:
                 nextV = curMax
-
             if v < nextV:
                 water += self.fillWater(stack, nextV)
-
         return water
 
     def fillWater(self, stack, curL):
